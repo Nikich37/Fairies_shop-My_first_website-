@@ -1,0 +1,61 @@
+/* You can add global styles to this file, and also import other style files */
+app-top-bar {
+  width: 99%;
+  height: 100px;
+  background-color: #f02ad5;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+  
+  /* Button */
+.button, button {
+  display: inline-flex;
+  align-items: center;
+  padding: 8px 16px;
+  border-radius: 2px;
+  font-size: 30px;
+  cursor: pointer;
+  background-color: #1976d2;
+  color: white;
+  border: none;
+}
+
+.button:hover, button:hover {
+  opacity: 0.8;
+  font-weight: normal;
+}
+
+.button:disabled, button:disabled {
+  opacity: 0.5;
+  cursor: auto;
+}
+
+.personal-button {
+  display: inline-flex;
+  align-items: center;
+  padding: 8px 16px;
+  border-radius: 5px;
+  font-size: 15px;
+  cursor: pointer;
+  background-color: rgb(223, 96, 191);
+  color: #fffdfe;
+  border-width: 5px;
+  border-style:inset;
+}
+
+.personal-button:hover, button:hover {
+  opacity: 0.8;
+  font-weight: normal;
+}
+
+/* Fancy Button */
+
+.fancy-button {
+  background-color: white;
+  color: #cf4c7f;
+  border-width: 5px;
+  border-style:outset;
+}

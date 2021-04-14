@@ -1,0 +1,12 @@
+<div class="block-list-fairies">
+<div *ngFor="let fairy of fairies; index as fairyId">
+
+    <div align="center"><h1>
+      <a>
+        {{ fairy.name }}
+      </a>
+    </h1>
+  </div>
+    <img class="img" [routerLink]="['/fairies', fairyId]" src = {{fairy.src}} height=300 width=350>
+  </div>
+</div>

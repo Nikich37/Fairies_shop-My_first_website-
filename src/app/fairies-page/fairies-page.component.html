@@ -1,0 +1,24 @@
+<div *ngIf="fairy">
+    <div align="center">
+        <h1>{{fairy.name}}</h1>
+    </div>
+    <div class="block-fairy-page">
+        <div>
+            <img src={{fairy.src}} height=400 width=400>
+        </div>
+        
+        <div>
+            <br><br><br><br><br><br>
+            <h3>{{fairy.description}}</h3>
+            <h2>Цена: {{fairy.price}}$</h2>
+
+            <div class="personal-button" (click)="buy()">
+                Купить
+            </div>
+            <br><br>
+            <div class="personal-button" (click)="add()">
+                Добавить в желаемые
+            </div>
+        </div>
+
+    </div>

@@ -1,0 +1,108 @@
+
+.first-block {
+    flex-direction: row;
+    box-sizing: border-box;
+    display: flex;
+    flex: 1 1 1e-09px;
+    margin: 20px
+}
+.personal-information {
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    display: flex;
+    border-style: inset;
+    border-color:adjust-color($color: #f75dd5);
+    border-width: 5px;
+    flex: 1 1 100%;
+    max-width: 20%;
+}
+
+.personal-fairies {
+    place-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    box-sizing: border-box;
+    display: flex;
+    border-style: inset;
+    border-color:adjust-color($color: #f75dd5);
+    border-width: 5px;
+    flex: 1 1 100%;
+    max-width: 80%;
+    margin: 0px 0px 0px 10px
+}
+
+.second-block{
+    flex-direction: row;
+    box-sizing: border-box;
+    display: flex;
+    flex: 1 1 1e-09px;
+    margin: 20px
+}
+
+.favourate-fairy {
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    display: flex;
+    border-style: inset;
+    border-color:adjust-color($color: #f75dd5);
+    border-width: 5px;
+    flex: 1 1 100%;
+    max-width: 20%;
+}
+
+.wanted-fairies {
+    place-content: center;
+    flex-flow: row wrap;
+    box-sizing: border-box;
+    display: flex;
+    border-style: inset;
+    border-color:adjust-color($color: #f75dd5);
+    border-width: 5px;
+    flex: 1 1 100%;
+    max-width: 80%;
+    margin: 0px 0px 0px 10px
+}
+
+.third-block {
+    flex-direction: row;
+    box-sizing: border-box;
+    place-content:center;
+    display: flex;
+    flex: 1 1 1e-09px;
+    margin: 20px
+}
+
+.breack{
+    width: 100%;
+    height: 0;
+  }
+
+a{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+    font-style:italic;
+}
+
+img:hover {
+    opacity: 0.7;
+  }
+
+  .personal-button {
+    display: inline-flex;
+    align-items: center;
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: rgb(223, 96, 191);
+    color: #fffdfe;
+    border-width: 5px;
+    border-style:inset;
+  }
+
+  .personal-button:hover, button:hover {
+    opacity: 0.8;
+    font-weight: normal;
+  }
